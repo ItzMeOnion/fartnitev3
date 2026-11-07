@@ -1,0 +1,12 @@
+The ".github" folder is hidden because its name starts with a dot, so it may not upload.
+Easiest fix - create it on GitHub's website:
+
+1. Open your repo on github.com
+2. Click "Add file" -> "Create new file"
+3. In the filename box type exactly:   .github/workflows/build.yml
+   (typing each "/" creates a folder)
+4. Open setup/build.yml.txt (in this project), copy everything, paste it into the editor
+5. Click "Commit changes"
+
+Then open the "Actions" tab. When the build finishes, click the run and download
+"fortnite-locker-jar" at the bottom. Put the jar in your Minecraft "mods" folder.

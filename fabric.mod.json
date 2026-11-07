@@ -1,0 +1,18 @@
+{
+  "schemaVersion": 1,
+  "id": "fortnitelocker",
+  "version": "${version}",
+  "name": "Fortnite Locker",
+  "description": "A battle-royale style Locker for Minecraft. Equip a skin and your player skin changes instantly.",
+  "authors": ["You"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": { "client": ["com.fortnitelocker.FortniteLockerClient"] },
+  "mixins": ["fortnitelocker.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.17.0",
+    "minecraft": "~1.21.8",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
